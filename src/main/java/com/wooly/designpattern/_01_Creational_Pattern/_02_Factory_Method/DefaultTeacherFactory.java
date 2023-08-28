@@ -1,4 +1,4 @@
-package com.wooly.designpattern._01_Creational_Pattern._02_Factory_method;
+package com.wooly.designpattern._01_Creational_Pattern._02_Factory_Method;
 
 public abstract class DefaultTeacherFactory implements TeacherFactory {
 

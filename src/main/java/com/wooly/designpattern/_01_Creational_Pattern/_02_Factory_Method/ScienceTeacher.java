@@ -1,4 +1,4 @@
-package com.wooly.designpattern._01_Creational_Pattern._02_Factory_method;
+package com.wooly.designpattern._01_Creational_Pattern._02_Factory_Method;
 
 public class ScienceTeacher extends Teacher {
 	public ScienceTeacher(String subject) {
