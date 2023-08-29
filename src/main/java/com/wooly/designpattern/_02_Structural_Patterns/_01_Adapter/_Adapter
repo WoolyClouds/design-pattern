@@ -1,0 +1,6 @@
+> 기존 코드를 클라이언트가 사용하는 인터페이스의 구현체로 바꿔주눈 패턴
+> Wrapper 라고도 불림
+
+[adaptee interface] ------[adapter]------> [target interface]
+
+adapter 클래스는 adaptee 클래스를 target 클래스로 변형하기 위하여 adaptee 클래스를 상속받아야 한다.
