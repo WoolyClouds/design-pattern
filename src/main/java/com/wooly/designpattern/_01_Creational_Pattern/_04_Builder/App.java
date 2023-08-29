@@ -2,6 +2,7 @@ package com.wooly.designpattern._01_Creational_Pattern._04_Builder;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class App {
 	public static void main(String[] args) {
@@ -42,5 +43,9 @@ public class App {
 				.list("list3")
 				.build();
 		System.out.println(lombokBuilder);
+
+		Stream<String> names = Stream.<String>builder().add("temp1").add("temp2").build();
+		names.forEach(System.out::println);
+
 	}
 }
